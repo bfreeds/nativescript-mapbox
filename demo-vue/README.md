@@ -1,23 +1,22 @@
-# demo-vue
+# Vue Mapbox Demo  
 
 > Vue demo for Mapbox Nativescript plugin
 
-## Usage
+This is a basic vue-cli nativescript application that follows the patterns in the [nativescript-google-maps-sdk](https://github.com/dapriett/nativescript-google-maps-sdk/tree/master/demo-vue) vue demo, as well as in [this tutorial](https://www.nativescript.org/blog/include-feature-rich-maps-in-a-nativescript-vue-app-with-mapbox) by Nic Raboy.
 
-``` bash
-# Install dependencies
-npm install
+To run this demo you must first build the plugin.
 
-# Preview on device
-tns preview
+```
+cd ../src
+npm run build.dist
+```
 
-# Build, watch for changes and run the application
-tns run
+then you can run the demo on a connected device or emulator
 
-# Build, watch for changes and debug the application
-tns debug <platform>
-
-# Build for production
-tns build <platform> --env.production
-
+```
+tns run android
+```
+-or-
+```
+tns run ios
 ```
