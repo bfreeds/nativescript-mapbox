@@ -14,8 +14,9 @@
       "version": "6.0.1"
     }
   },
-  "dependencies": { 
+  "dependencies": {
     "@vue/devtools": "^5.0.6",
+    "nativescript-mapbox": "file:../publish/dist/package",
     "nativescript-socketio": "^3.2.1",
     "nativescript-vue-devtools": "^1.2.0",
     "nativescript-toasty": "^1.3.0",
