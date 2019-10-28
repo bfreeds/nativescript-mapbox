@@ -2,6 +2,8 @@
 .vscode
 .DS_Store
 *.js
+!demo-vue/*.js
+!demo-vue/app/*.js
 *.log
 *.map
 *.tgz
